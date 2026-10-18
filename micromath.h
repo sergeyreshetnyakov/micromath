@@ -119,164 +119,164 @@ static inline float mm_lerpf(float a, float b, float t) {
 
 static inline mm_vec2 mm_vec2_add(mm_vec2 a, mm_vec2 b) {
     return (mm_vec2){
-        a.x + b.x,
-        a.y + b.y
+        .x = a.x + b.x,
+        .y = a.y + b.y
     };
 }
 
 static inline mm_vec3 mm_vec3_add(mm_vec3 a, mm_vec3 b) {
     return (mm_vec3){
-        a.x + b.x,
-        a.y + b.y,
-        a.z + b.z
+        .x = a.x + b.x,
+        .y = a.y + b.y,
+        .z = a.z + b.z
     };
 }
 
 static inline mm_vec4 mm_vec4_add(mm_vec4 a, mm_vec4 b) {
     return (mm_vec4){
-        a.x + b.x,
-        a.y + b.y,
-        a.z + b.z,
-        a.w + b.w
+        .x = a.x + b.x,
+        .y = a.y + b.y,
+        .z = a.z + b.z,
+        .w = a.w + b.w
     };
 }
 
 
 static inline mm_vec2 mm_vec2_addf(mm_vec2 a, float b) {
     return (mm_vec2){
-        a.x + b,
-        a.y + b
+        .x = a.x + b,
+        .y = a.y + b
     };
 }
 
 static inline mm_vec3 mm_vec3_addf(mm_vec3 a, float b) {
     return (mm_vec3){
-        a.x + b,
-        a.y + b,
-        a.z + b
+        .x = a.x + b,
+        .y = a.y + b,
+        .z = a.z + b
     };
 }
 
 static inline mm_vec4 mm_vec4_addf(mm_vec4 a, float b) {
     return (mm_vec4){
-        a.x + b,
-        a.y + b,
-        a.z + b,
-        a.w + b
+        .x = a.x + b,
+        .y = a.y + b,
+        .z = a.z + b,
+        .w = a.w + b
     };
 }
 
 
 static inline mm_vec2 mm_vec2_sub(mm_vec2 a, mm_vec2 b) {
     return (mm_vec2){
-        a.x - b.x,
-        a.y - b.y
+        .x = a.x - b.x,
+        .y = a.y - b.y
     };
 }
 
 static inline mm_vec3 mm_vec3_sub(mm_vec3 a, mm_vec3 b) {
     return (mm_vec3){
-        a.x - b.x,
-        a.y - b.y,
-        a.z - b.z
+        .x = a.x - b.x,
+        .y = a.y - b.y,
+        .z = a.z - b.z
     };
 }
 
 static inline mm_vec4 mm_vec4_sub(mm_vec4 a, mm_vec4 b) {
     return (mm_vec4){
-        a.x - b.x,
-        a.y - b.y,
-        a.z - b.z,
-        a.w - b.w
+        .x = a.x - b.x,
+        .y = a.y - b.y,
+        .z = a.z - b.z,
+        .w =a.w - b.w
     };
 }
 
 
 static inline mm_vec2 mm_vec2_subf(mm_vec2 a, float b) {
     return (mm_vec2){
-        a.x - b,
-        a.y - b
+        .x = a.x - b,
+        .y = a.y - b
     };
 }
 
 static inline mm_vec3 mm_vec3_subf(mm_vec3 a, float b) {
     return (mm_vec3){
-        a.x - b,
-        a.y - b,
-        a.z - b
+        .x = a.x - b,
+        .y = a.y - b,
+        .z = a.z - b
     };
 }
 
 static inline mm_vec4 mm_vec4_subf(mm_vec4 a, float b) {
     return (mm_vec4){
-        a.x - b,
-        a.y - b,
-        a.z - b,
-        a.w - b
+        .x = a.x - b,
+        .y = a.y - b,
+        .z = a.z - b,
+        .w = a.w - b
     };
 }
 
 
 static inline mm_vec2 mm_vec2_mul(mm_vec2 a, mm_vec2 b) {
     return (mm_vec2){
-        a.x * b.x,
-        a.y * b.y
+        .x = a.x * b.x,
+        .y = a.y * b.y
     };
 }
 
 static inline mm_vec3 mm_vec3_mul(mm_vec3 a, mm_vec3 b) {
     return (mm_vec3){
-        a.x * b.x,
-        a.y * b.y,
-        a.z * b.z
+        .x = a.x * b.x,
+        .y = a.y * b.y,
+        .z = a.z * b.z
     };
 }
 
 static inline mm_vec4 mm_vec4_mul(mm_vec4 a, mm_vec4 b) {
     return (mm_vec4){
-        a.x * b.x,
-        a.y * b.y,
-        a.z * b.z,
-        a.w * b.w
+        .x = a.x * b.x,
+        .y = a.y * b.y,
+        .z = a.z * b.z,
+        .w = a.w * b.w
     };
 }
 
 
 static inline mm_vec2 mm_vec2_mulf(mm_vec2 a, float b) {
     return (mm_vec2){
-        a.x * b,
-        a.y * b
+        .x = a.x * b,
+        .y = a.y * b
     };
 }
 
 static inline mm_vec3 mm_vec3_mulf(mm_vec3 a, float b) {
     return (mm_vec3){
-        a.x * b,
-        a.y * b,
-        a.z * b
+        .x = a.x * b,
+        .y = a.y * b,
+        .z = a.z * b
     };
 }
 
 static inline mm_vec4 mm_vec4_mulf(mm_vec4 a, float b) {
     return (mm_vec4){
-        a.x * b,
-        a.y * b,
-        a.z * b,
-        a.w * b
+        .x = a.x * b,
+        .y = a.y * b,
+        .z = a.z * b,
+        .w = a.w * b
     };
 }
 
 
 static inline mm_vec2 mm_vec2_negate(mm_vec2 a) {
-    return (mm_vec2){ -a.x, -a.y };
+    return (mm_vec2){ .x = -a.x, .y = -a.y };
 }
 
 static inline mm_vec3 mm_vec3_negate(mm_vec3 a) {
-    return (mm_vec3){ -a.x, -a.y, -a.z };
+    return (mm_vec3){ .x = -a.x, .y = -a.y, .z = -a.z };
 }
 
 static inline mm_vec4 mm_vec4_negate(mm_vec4 a) {
-    return (mm_vec4){ -a.x, -a.y, -a.z, -a.w };
+    return (mm_vec4){ .x = -a.x, .y = -a.y, .z = -a.z, .w = -a.w };
 }
 
 
@@ -324,9 +324,9 @@ static inline float mm_vec2_cross(mm_vec2 a, mm_vec2 b) {
 
 static inline mm_vec3 mm_vec3_cross(mm_vec3 a, mm_vec3 b) {
     return (mm_vec3){
-        a.y * b.z - a.z * b.y,
-        a.z * b.x - a.x * b.z,
-        a.x * b.y - a.y * b.x
+        .x = a.y * b.z - a.z * b.y,
+        .y = a.z * b.x - a.x * b.z,
+        .z = a.x * b.y - a.y * b.x
     };
 }
 
@@ -364,50 +364,50 @@ static inline mm_vec4 mm_vec4_normalize(mm_vec4 a) {
 
 static inline mm_vec2 mm_vec2_clamp(mm_vec2 a, float low, float high) {
     return (mm_vec2){
-        mm_clampf(a.x, low, high),    
-        mm_clampf(a.y, low, high)    
+        .x = mm_clampf(a.x, low, high),    
+        .y = mm_clampf(a.y, low, high)    
     };
 }
 
 static inline mm_vec3 mm_vec3_clamp(mm_vec3 a, float low, float high) {
     return (mm_vec3){
-        mm_clampf(a.x, low, high),    
-        mm_clampf(a.y, low, high),    
-        mm_clampf(a.z, low, high)    
+        .x = mm_clampf(a.x, low, high),    
+        .y = mm_clampf(a.y, low, high),    
+        .z = mm_clampf(a.z, low, high)    
     };
 }
 
 static inline mm_vec4 mm_vec4_clamp(mm_vec4 a, float low, float high) {
     return (mm_vec4){
-        mm_clampf(a.x, low, high),    
-        mm_clampf(a.y, low, high),    
-        mm_clampf(a.z, low, high),    
-        mm_clampf(a.w, low, high)    
+        .x = mm_clampf(a.x, low, high),    
+        .y = mm_clampf(a.y, low, high),    
+        .z = mm_clampf(a.z, low, high),    
+        .w = mm_clampf(a.w, low, high)    
     };
 }
 
 
 static inline mm_vec2 mm_vec2_lerp(mm_vec2 a, mm_vec2 b, float t) {
     return (mm_vec2){
-        mm_lerpf(a.x, b.x, t),    
-        mm_lerpf(a.y, b.y, t)    
+        .x = mm_lerpf(a.x, b.x, t),    
+        .y = mm_lerpf(a.y, b.y, t)    
     };
 }
 
 static inline mm_vec3 mm_vec3_lerp(mm_vec3 a, mm_vec3 b, float t) {
     return (mm_vec3){
-        mm_lerpf(a.x, b.x, t),    
-        mm_lerpf(a.y, b.y, t),    
-        mm_lerpf(a.z, b.z, t)    
+        .x = mm_lerpf(a.x, b.x, t),    
+        .y = mm_lerpf(a.y, b.y, t),    
+        .z = mm_lerpf(a.z, b.z, t)    
     };
 }
 
 static inline mm_vec4 mm_vec4_lerp(mm_vec4 a, mm_vec4 b, float t) {
     return (mm_vec4){
-        mm_lerpf(a.x, b.x, t),    
-        mm_lerpf(a.y, b.y, t),    
-        mm_lerpf(a.z, b.z, t),    
-        mm_lerpf(a.w, b.w, t)    
+        .x = mm_lerpf(a.x, b.x, t),    
+        .y = mm_lerpf(a.y, b.y, t),    
+        .z = mm_lerpf(a.z, b.z, t),    
+        .w = mm_lerpf(a.w, b.w, t)    
     };
 }
 
@@ -649,10 +649,7 @@ static inline mm_mat4 mm_mat4_mulf(mm_mat4 a, float b) {
 
 static inline mm_vec2 mm_mat2_mulv(mm_mat2 a, mm_vec2 b) {
     mm_vec2 res = { 0 };
-
-    // res.x = a.elements[0][0] * b.elements[0] + a.elements[1][0] * b.elements[1];
-    // res.y = a.elements[0][1] * b.elements[0] + a.elements[1][1] * b.elements[1];
-    
+  
     for (int i = 0; i < 2; i++) {
         res.elements[i] = a.elements[0][i] * b.x + a.elements[1][i] * b.y;
     }
