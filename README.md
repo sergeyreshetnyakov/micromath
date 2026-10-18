@@ -1,9 +1,8 @@
-Micromath is an single-header math library for graphics, which I wrote as a study project, when I was learning 3D graphics.
+**Micromath** is an single-header C11 math library for graphics, which I wrote as a study project, when I was learning 3D graphics.
 
-Matrices are stored in a column-major format: elements[col][row]
+Matrices are stored in a *column-major* format: elements[col][row]
 
-Micromath requires C11.
-    
+
 By default, micromath uses <math.h> from C runtime library. If you
 want to replace it, you must define MICROMATH_DO_NOT_USE_STDLIB_MATH
 before including micromath and write implementation for MM_SQRTF,
